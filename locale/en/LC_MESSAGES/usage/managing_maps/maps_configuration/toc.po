@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:4
+#: 5ed0684bc49e4b57bd67f20f85921a55
+msgid "Table of Contents (TOC)"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:6
+#: b03b8b281575474a80793ef3cbb654ba
+msgid ""
+"In the upper left corner, click on |toc_button| to open the *Table Of "
+"Contents*, briefly *TOC* from now on, of the map. The *TOC* shows all the"
+" datasets involved with the *Map* and allows to manage their properties "
+"and representations on the map."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:96
+#: 7cf71852dc1741d9a9e88c8cdc168fbc
+msgid "toc_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:13
+#: 6408dfc6587e4123b5b5009c413abc33
+msgid "*The Table Of Contents (TOC)*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:15
+#: ba78c8161bde4f5eba3d45cfc9def723
+msgid "From the *TOC* you can:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:17
+#: f07dcb29a6e648a58c2fd7035e3bffa2
+msgid ""
+"manage the *TOC Settings* (click on |settings_toc_button|) (See the "
+"`MapStore Documentation "
+"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/toc"
+"/#toc-settings-and-toolbar/>`_ for more information.)"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:111
+#: b39474a71700433d88fd1f75b00ff529
+msgid "settings_toc_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:18
+#: 1868ee1a2d3645faa994d3a42f065050
+msgid "manage the datasets *Overlap*;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:19
+#: 334054c44e7a4a508bc4809a2d0f9af7
+msgid "filter the datasets list by typing text in the *Filter Datasets* field;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:20
+#: a49948480aab4f5ab5c8ce2b043b2793
+msgid ""
+"manage the datasets properties such as *Opacity* (scroll the opacity "
+"cursor), *Visibility* (click on |hide_button| to make the dataset not "
+"visible, click on |show_button| to show it on map);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:101
+#: bdf29b7829ef4a739a101a9ed0a9dec6
+msgid "hide_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:106
+#: 9f2c87fc82834747bdbb6d39c837e47b
+msgid "show_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:21
+#: 34840c8c0c3749ad9b4116e37b5d994b
+msgid "add and manage *Annotations* (click on |annotation_button|)"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:131
+#: 2bddf67b015848098587f4f6a31dc4f2 e2465eced15744e19685e8b537d9754b
+msgid "annotation_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:22
+#: 8d29fcfb0e2f4cc6a563fbe9d5b8e56e
+msgid "manage the *Dataset Settings*, see the next paragraph."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:28
+#: f69c5108eba046f399cccf074d5390ac
+msgid "*Scrolling the Dataset Opacity*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:30
+#: c97e5375b21344a188529915135ae7ee
+msgid ""
+"Select a *Dataset* from the list and click on it, the *Dataset Toolbar* "
+"should appear in the *TOC*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:36
+#: d1d0c1fc2cca4d719796e77c172a1df3
+msgid "*The Dataset Toolbar*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:39
+#: 981dbad286af47a6a16a426df128b927
+msgid "The *Toolbar* shows you many buttons:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:41
+#: 141da025f08346bf8035d9783a8f089b
+msgid ""
+"the **Zoom to dataset extent** button allows you to zoom to the dataset "
+"extent;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:42
+#: b466b69e499b4502a11c73b417b9a5ef
+msgid ""
+"the **Filter layer** button that acts directly on a layer with WFS "
+"available and filter its content;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:43
+#: 55b47a0b65984a69b1962498a6ebf7fc
+msgid ""
+"the **Attribute Table** button to explore the features of the dataset and"
+" their attributes (more information at :ref:`attributes-table`);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:44
+#: f9c981db0e574b57bcaef6cb9b5a345c
+msgid ""
+"the **Delete** button to delete datasets (click on :guilabel:`Delete "
+"Dataset` to confirm your choice);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:45
+#: 6e120047ff4841638daf6d5959c0b1c3
+msgid "the **Widgets** button to create Widgets (see :ref:`creating-widgets`)."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:46
+#: 2e59f62c43544605b6f6b663051652f5
+msgid "the **Export data** button;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:47
+#: c9588b1d49744e97a90db1cc0365ebec
+msgid ""
+"the **Settings** button drives you through the dataset settings "
+"customization (see the next paragraph);"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:48
+#: a0ea01808f0e460ca30053a99816ce2e
+msgid "the **Compare tool** button to *Swipe* or *Spy* the selected layer"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:49
+#: a5a16c5938e94958b3c8acf1c2db1a61
+msgid "the **Edit Style** button;"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:53
+#: 4d6c9e001cf84f998c0bdd1740c36406
+msgid "Managing Dataset Settings"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:55
+#: e7a45b451b124b1cbde10c8aa80af737
+msgid "The *Dataset Settings* panel looks like the one below."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:61
+#: 9a8d18e57bc840ddb4d41b3ded8e61a4
+msgid "*The Dataset Settings Panel*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:63
+#: 70f1f6b68c904950829275bf5ac59d73
+msgid "The *Dataset Settings* are divided in three groups:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:65
+#: 9f66582a59b64ae39ff1d0c760f47bb1
+msgid "*General* settings"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:66
+#: b5408cbb10b14160b155a2352954f4e8
+msgid "*Visibility* settings"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:67
+#: 6248eb09cf264a4ba7f3c2eafa762b24
+msgid "*Style* settings"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:68
+#: c23329c6888849e1bf734d9758ea317a
+msgid "*Tiling* settings"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:70
+#: 5c9b860075db44bfa5354acb8abbf0d3
+msgid ""
+"In the **General** tab of the *Settings Panel* you can customize the "
+"dataset *Title*, insert a *Description*, change/add the *Dataset Group* "
+"and change the *Tooltip content* and the *Tooltip placement*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:72
+#: 0daf763b6c3646499690b4c2fa04fa59
+msgid ""
+"The **Visibility** tab where you can Change the *Opacity* of the layer "
+"and add the *Visibility limits* to display the layer only within certain "
+"scale limits"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:78
+#: e5b78977ac38498f9807b08569cccfa4
+msgid "*The Visibility tab on Settings Panel*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:80
+#: 9f8869ea1aa145ee8b337641dc43b92d
+msgid ""
+"The **Style** tab allows you to select the style from the available layer"
+" styles and change the *Width* and the *Height* of the *Legend*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:86
+#: fab5ea7d1e0742e3945880b6d50b9bc3
+msgid "*The Style tab on Settings Panel*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:88
+#: 031e746c701d4108802f4355c6afdc55
+msgid ""
+"Click on the **Tiling** tab to change the output *Format* of the WMS "
+"requests, the *Tile Size* and enable/disable the *Trasparent*, the *Use "
+"cache options* and the *Single Tile*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:94
+#: 2e0a9d7f9f5f4b30b231ac5a76c91f73
+msgid "*The Tiling tab on Settings Panel*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:117
+#: 02d7bce83e51405b82337e5ba7d73ad6
+msgid "Add an Annotation"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:118
+#: d66beacce1e940f6bc3e72bced4f3313
+msgid ""
+"Click on the |annotation_button| button from the *TOC Toolbar* to enrich "
+"the map with special features which expose additional information, mark "
+"particular position on the map and so on. From here the editor can insert"
+" a *Title* and a *Description*."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:124
+#: 3046a12e3ec147ffa696a8abe79ac35a
+msgid "*Annotations panel*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:136
+#: 9412c9b4966f4234afd1ecc9dac0f8c7
+msgid ""
+"To begin, from the annotation panel, the editor add new annotation by "
+"selecting the :guilabel:`Geometries` tab."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:141
+#: bdcba7d7a07f425f817bb52746e1f74b
+msgid "*Add an Annotations*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:144
+#: 6d00a17fcde04b3081bef850527a4240
+msgid "Here the user can choose between five different types of *Geometries*:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:146
+#: 39378ce6b2a048b4afb5d5a351d9a688
+msgid "*Marker*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:147
+#: 29e239d164844865b69fc40c83b59dcd
+msgid "*Line*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:148
+#: 8f1fe57e871749b885db9ebbd3da39ac
+msgid "*Polygon*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:149
+#: 375966fd36ad4cc4b3637a7f1702d1fb
+msgid "*Text*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:150
+#: a84913c8fa234dbe9a19cae8c1cd1984
+msgid "*Circle*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/toc.rst:152
+#: 85b1ef66e98b49f29cc068501043ba2e
+msgid ""
+"See the `MapStore Documentation "
+"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-"
+"guide/annotations/>`_ for more information."
+msgstr ""
+

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,24 +61,29 @@ msgstr ""
 msgid "*The Map Viewer*"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:32
-#: 20364bcb696e46af92bb658a14173204
-msgid "In the upper left corner the |toc_button| button opens the :ref:`toc` of the *Map*. It allows to manage all the datasets associated with the map and to add new ones from the *Catalog*."
+#: ../../usage/managing_maps/creating_maps.rst:31
+#: 8c53ffbc76644d57a676b7b0ee0a77ef
+msgid "Using the :guilabel:`Add dataset` link, you can add a layer by clicking on one of the layers listed in the catalog. In the upper left corner the *TOC button* button opens the :ref:`toc` of the *Map*. It allows to manage all the datasets associated with the map and to add new ones from the :guilabel:`Add dataset`. The *TOC* component makes possible to manage datasets overlap on the map by shifting their relative positions in the list (drag and drop them up or down in the list). It also allows to hide/show datasets ( |show_button| and |hide_button| ), to zoom to datasets extents ( |zoom_to_dataset_extent_button| ) and to manage their properties ( |dataset_settings_button| ). Once the map datasets have been settled it is possible to save the *Map* by clicking on the :guilabel:`Save as` under the :guilabel:`Resources` link in the map toolbar."
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:33
-#: 86c4b5cf02134e5aac85c0c2edc3e7da
-msgid "The *TOC* component makes possible to manage datasets overlap on the map by shifting their relative positions in the list (drag and drop them up or down in the list)."
+#: ../../usage/managing_maps/creating_maps.rst:43
+#: a7e5f8ad0568437697adfc37957406b6
+msgid "show_button"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:34
-#: 25f705d08a014721a2eb9826b8787ceb
-msgid "It also allows to hide/show datasets ( |show_button| and |hide_button| ), to zoom to datasets extents ( |zoom_to_dataset_extent_button| ) and to manage their properties ( |dataset_settings_button| )."
+#: ../../usage/managing_maps/creating_maps.rst:48
+#: e84bd866bfc34065ae1bae7b4ceffebb
+msgid "hide_button"
 msgstr ""
 
-#: ../../usage/managing_maps/creating_maps.rst:35
-#: 7bfd4cad477a4684837ca09a95c911df
-msgid "Once the map datasets have been settled it is possible to save the *Map* by clicking on |burger_menu_button| and choosing :guilabel:`Save as`."
+#: ../../usage/managing_maps/creating_maps.rst:53
+#: 95be750c34044af0bfbcea2a6d507a42
+msgid "zoom_to_dataset_extent_button"
+msgstr ""
+
+#: ../../usage/managing_maps/creating_maps.rst:58
+#: a3c8daeebcb14de69574f8871810555a
+msgid "dataset_settings_button"
 msgstr ""
 
 #: ../../usage/managing_maps/creating_maps.rst:38

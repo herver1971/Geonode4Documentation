@@ -598,7 +598,7 @@ Is important that this last section is not modified here unless the administrato
     :align: center
 
 Manage datasets using the admin panel
-===================================
+=====================================
 
 Some of the datasets information can be edited directly through the admin interface although the best place is in the :guilabel:`Dataset -> Metadata Edit` in GeoNode.
 

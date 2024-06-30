@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,4 +74,73 @@ msgstr ""
 #: ../../usage/managing_documents/document_editing.rst:41
 #: dbb23ce2338b4a5c8243fbc1a39649a1
 msgid "In the example shown in the picture above, the information inside the red rectangles have been changed. To save the changes click on :guilabel:`Update`, you will be redirected to the document page."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:44
+#: 4fcc5cb7720449239a1197c7160511cd
+msgid "Editing the Document Info"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:46
+#: a01a1f533a534fbcbbbf665de2f27106
+msgid "You can edit the information of your document by clicking on the :guilabel:`Info` button."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:48
+#: a23b874cb9de47238a334d3d29ecd3c4
+msgid "From the Info panel, it is possible to upload the **Thumbnail** of the document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:53
+#: 480b22ec86024bf39a807fd4c5cd8353
+msgid "*Upload Thumbnail*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:55
+#: 99d0cc2e09ee45508bc89a8868c71007
+msgid "If you want this document in your **Favorites** (see :ref:`editing-profile`), click on the start icon."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:60
+#: b1579072be084adebd5ac24663e434ad
+msgid "*Favorite document*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:62
+#: 46d35a12d7414dd4800fa63ba5c753cc
+msgid "You can directly **Download** the document and **Share** the document url by clicking the buttons on the top-right of the panel."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:67
+#: 2f19b3deab2a4719a11c559913abdc55
+msgid "*Share and Download document*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:69
+#: fbeac6462c704e298af6b92d032e8c04
+msgid "By clicking the document **Title**, you can change it."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:74
+#: ../../usage/managing_documents/document_editing.rst:81
+#: ../../usage/managing_documents/document_editing.rst:89
+#: b90a9ca593c14aa9b71c4ab7b509b50a
+#: 51c6d39fb5674135bede831d6003e13d
+#: 1f44356012544446a50d085be83cdd48
+msgid "*Document Title*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:76
+#: 862633d94d904babbe2279b4dc44d4d3
+msgid "From the :guilabel:`Locations` tab, you can manage the spacial extent of the document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:84
+#: 8fac4161ab8e4d3bb4346e5e1e1fea10
+msgid "Here numerical fields and a map show the spatial extent (WGS 84) for the document and you can edit it by Shift+click and drag to draw the new extent on the map and change its location by clicking the marker and drag."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:91
+#: 5f2df6bfa4d94ff8ab096af935755832
+msgid "The *Location* tab is also available for :ref:`dashboard` and :ref:`geostory`"
 msgstr ""

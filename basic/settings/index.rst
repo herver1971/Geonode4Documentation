@@ -134,7 +134,8 @@ External application can define additional supported file type other than the de
 The variable should be declared in this way in `settings.py` (or via application hook):
 
 
-    .. code::
+.. code::shell
+
         ADDITIONAL_DATASET_FILE_TYPES=[
             {
                 "id": "dummy_type",
@@ -332,10 +333,10 @@ AVATAR_PROVIDERS
 ----------------
 
   | Default:
-  .. code-block::
+
+.. code-block::shell
 
     'avatar.providers.PrimaryAvatarProvider','avatar.providers.GravatarAvatarProvider','avatar.providers.DefaultAvatarProvider'
-
 
   | Env: ``AVATAR_PROVIDERS``
   | Options: ``Avatar provider object``
@@ -844,7 +845,7 @@ DEFAULT_MAP_ZOOM
     the viewport in half in each direction.
 
 DEFAULT_MAX_PARALLEL_UPLOADS_PER_USER
------------------------
+-------------------------------------
 
 Default: ``5``
 
@@ -1153,7 +1154,7 @@ GEOSERVER_ADMIN_USER
     The geoserver admin username.
 
 GEOSERVER_ADMIN_PASSWORD
------------------------
+------------------------
 
     | Default: ``geoserver``
     | Env: ``GEOSERVER_ADMIN_USER``
@@ -1161,7 +1162,7 @@ GEOSERVER_ADMIN_PASSWORD
     The GeoServer admin password.
 
 GEOSERVER_FACTORY_PASSWORD
------------------------
+--------------------------
 
     | Default: ``geoserver``
     | Env: ``GEOSERVER_FACTORY_PASSWORD``
@@ -1440,7 +1441,8 @@ If you want to use your parser after the default one, here is how the variable a
 
 NOTE: the keywords must be in a specific format, since later this dict, will be ingested by the `KeywordHandler` which will assign the keywords/thesaurus to the layer.
 
-    .. code::
+.. code::
+
         {
             "keywords": [list_of_keyword_extracted],
             "thesaurus": {"date": None, "datetype": None, "title": None}, # thesaurus informations
@@ -1449,7 +1451,8 @@ NOTE: the keywords must be in a specific format, since later this dict, will be 
         
 Here is an example of expected parser function
 
-    .. code::
+.. code::
+
         def custom_parsing_function(exml, uuid, vals, regions, keywords, custom):
             # Place here your code
             return uuid, vals, regions, keywords, custom
@@ -1480,7 +1483,8 @@ Here is how the variable are populated by default:
 
 Here is an example of expected storer function
 
-    .. code::
+.. code::
+
         def custom_storer_function(layer, custom):
             # do something here
             pass
@@ -1921,10 +1925,11 @@ PYCSW
     By default CSW will filter only for `layer` resource_type
 
     Example of PYCSW configuration.
+
     PYCSW: {
-        'CONFIGURATION': {...},
-        'FILTER': {'resource_type__in':['layer'] }
-    }
+            'CONFIGURATION': {...},
+            'FILTER': {'resource_type__in':['layer'] }
+            }
     
 R
 =
@@ -2132,12 +2137,12 @@ Inside each module in the list we need to define a variable:
 
 `services_type = {
     "<key_of_service_type>": {
-        "OWS": True/False,
-        "handler": "<path.to.Handler>",
-        "label": "<label to show in remote service page>",
-        "management_view": "<path.to.view>"
-    }
-}`
+                        "OWS": True/False,
+                        "handler": "<path.to.Handler>",
+                        "label": "<label to show in remote service page>",
+                        "management_view": "<path.to.view>",
+                        }
+                }`
 
 the key_of_service_type is just an identifier to assign at the service type.
 OWS is True if the service type is an OGC Service Compliant.
@@ -2363,67 +2368,67 @@ SUPPORTED_DATASET_FILE_TYPES
     
     Default::
         SUPPORTED_DATASET_FILE_TYPES = [
-        {
-            "id": "shp",
-            "label": "ESRI Shapefile",
-            "format": "vector",
-            "ext": ["shp"],
-            "requires": ["shp", "prj", "dbf", "shx"],
-            "optional": ["xml", "sld"]
-        },
-        {
-            "id": "tiff",
-            "label": "GeoTIFF",
-            "format": "raster",
-            "ext": ["tiff", "tif"],
-            "mimeType": ["image/tiff"],
-            "optional": ["xml", "sld"]
-        },
-        {
-            "id": "csv",
-            "label": "Comma Separated Value (CSV)",
-            "format": "vector",
-            "ext": ["csv"],
-            "mimeType": ["text/csv"],
-            "optional": ["xml", "sld"]
-        },
-        {
-            "id": "zip",
-            "label": "Zip Archive",
-            "format": "archive",
-            "ext": ["zip"],
-            "mimeType": ["application/zip"],
-            "optional": ["xml", "sld"]
-        },
-        {
-            "id": "xml",
-            "label": "XML Metadata File",
-            "format": "metadata",
-            "ext": ["xml"],
-            "mimeType": ["application/json"],
-            "needsFiles": ["shp", "prj", "dbf", "shx", "csv", "tiff", "zip", "sld"]
-        },
-        {
-            "id": "sld",
-            "label": "Styled Layer Descriptor (SLD)",
-            "format": "metadata",
-            "ext": ["sld"],
-            "mimeType": ["application/json"],
-            "needsFiles": ["shp", "prj", "dbf", "shx", "csv", "tiff", "zip", "xml"]
-        }
-    ]
+                            {
+                            "id": "shp",
+                            "label": "ESRI Shapefile",
+                            "format": "vector",
+                            "ext": ["shp"],
+                            "requires": ["shp", "prj", "dbf", "shx"],
+                            "optional": ["xml", "sld"]
+                            },
+                            {
+                            "id": "tiff",
+                            "label": "GeoTIFF",
+                            "format": "raster",
+                            "ext": ["tiff", "tif"],
+                            "mimeType": ["image/tiff"],
+                            "optional": ["xml", "sld"]
+                            },
+                            {
+                            "id": "csv",
+                            "label": "Comma Separated Value (CSV)",
+                            "format": "vector",
+                            "ext": ["csv"],
+                            "mimeType": ["text/csv"],
+                            "optional": ["xml", "sld"]
+                            },
+                            {
+                            "id": "zip",
+                            "label": "Zip Archive",
+                            "format": "archive",
+                            "ext": ["zip"],
+                            "mimeType": ["application/zip"],
+                            "optional": ["xml", "sld"]
+                            },
+                            {
+                            "id": "xml",
+                            "label": "XML Metadata File",
+                            "format": "metadata",
+                            "ext": ["xml"],
+                            "mimeType": ["application/json"],
+                            "needsFiles": ["shp", "prj", "dbf", "shx", "csv", "tiff", "zip", "sld"]
+                            },
+                            {
+                            "id": "sld",
+                            "label": "Styled Layer Descriptor (SLD)",
+                            "format": "metadata",
+                            "ext": ["sld"],
+                            "mimeType": ["application/json"],
+                            "needsFiles": ["shp", "prj", "dbf", "shx", "csv", "tiff", "zip", "xml"]
+                            }
+                        ]
 
-    Rappresent the list of the supported file type in geonode that can be ingested by the platform
+Rappresent the list of the supported file type in geonode that can be ingested by the platform
 
 For example. the following configuration is needed to add the GeoJSON as supported file:
 
     Default::
         {
-            "id": "geojson",
-            "label": "GeoJSON",
-            "format": "metadata",
-            "ext": ["geojson"],
-            "mimeType": ["application/json"]
+        "id": "geojson",
+        "label": "GeoJSON",
+        "format": "metadata",
+        "ext": ["geojson"],
+        "mimeType": ["application/json"]
         }
 
 
@@ -2536,7 +2541,9 @@ TINYMCE_DEFAULT_CONFIG
 
         -   https://django-tinymce.readthedocs.io/en/latest/installation.html#configuration
         -   :ref:`getfetureinfo-templates`
-U
+
+        U
+
 =
 
 UI_REQUIRED_FIELDS

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2017-2020, Open Source Geospatial Foundation, CC-SA
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
 # This file is distributed under the same license as the GeoNode package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-15 11:00+0100\n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../usage/data/data_types.rst:14
 #: 8a2bf68536ed4313806c965bbfaef98a
-msgid "Datasets, Documents and Remote Services can be accessed from the :guilabel:`Data` menu of the navigation bar. The :guilabel:`Maps` menu lets you filter only maps in the available resource. This applies to other existing menu items like :guilabel:`GeoStories`."
+msgid "Datasets and Documents can be accessed from the :guilabel:`Data` menu of the navigation bar. The :guilabel:`Maps` menu lets you filter only maps in the available resource. This applies to other existing menu items like :guilabel:`GeoStories`."
 msgstr ""
 
 #: ../../usage/data/data_types.rst:17
@@ -83,8 +83,8 @@ msgid "Documents can be uploaded directly from your disk (see :ref:`uploading-do
 msgstr ""
 
 #: ../../usage/data/data_types.rst:31
-#: 246eb71a417b4e078c79395e1e194ac0
-msgid "The following documents types are allowed: `.doc, .docx, .gif, .jpg, .jpeg, .ods, .odt, .odp, .pdf, .png, .ppt, .pptx, .rar, .sld, .tif, .tiff, .txt, .xls, .xlsx, .xml, .zip, .gz, .qml`."
+#: 10d4edd6a0524a63ac7f8736b5f4f4c2
+msgid "The following documents types are allowed: `txt, .log, .doc, .docx, .ods, .odt, .sld, .qml, .xls, .xlsx, .xml, .bm, .bmp, .dwg, .dxf, .fif, .gif, .jpg, .jpe, .jpeg, .png, .tif, .tiff, .pbm, .odp, .ppt, .pptx, .pdf, .tar, .tgz, .rar, .gz, .7z, .zip, .aif, .aifc, .aiff, .au, .mp3, .mpga, .wav, .afl, .avi, .avs, .fli, .mp2, .mp4, .mpg, .ogg, .webm, .3gp, .flv, .vdo, .glb, .pcd, .gltf`."
 msgstr ""
 
 #: ../../usage/data/data_types.rst:32

@@ -1,0 +1,310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:4
+#: c12b323eb5aa48b5867c6b71447e1f97
+msgid "Attributes Table"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:11
+#: 93cef2ffc9844e109398918b217c403a
+msgid ""
+"When clicking on the |attribute_table_button| button of the :ref:`toc`, "
+"the *Attributes Table* panel opens at the bottom of the *Map* page."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:6
+#: 83fe06785227409ba2970238063bd664
+msgid "attribute_table_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:16
+#: 19ebab4e6ae84287ae28ad5243327cb5
+msgid "*The Attributes Table Panel*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:23
+#: 21ba4358c3d84c4698f550ff7fe43e28
+msgid ""
+"In that panel you can navigate through the features of the dataset, zoom "
+"to their geometries by clicking on the |zoom_to_feature_icon| icon and "
+"explore their attributes."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:18
+#: 18c38f6a53b846c0b70c8786632e40e0
+msgid "zoom_to_feature_icon"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:25
+#: f9ec82d3ae2a4590b9a48a5ce854d70d
+msgid ""
+"The *Attribute Tables* has a row for each feature belonging to the "
+"dataset and a column for each attribute that describes the feature."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:26
+#: 13d2e1d64c194854a6b04b68e4e76433
+msgid ""
+"Each column has a *Filter* input field through which you can filter the "
+"features basing on some value or expression (depending on the data type "
+"of the field)."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:31
+#: 9a0c945c85454d8ba5ed290f5ab314bb
+msgid "*Filtering Features by Attribute*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:33
+#: f62962050e5c4bccab29b1fd5d3c665d
+msgid ""
+"The *Attributes Table* panel contains a *Toolbar* which makes you "
+"available some useful functionalities."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:38
+#: 2d9ef762674543a6ba5e14f0031626b6
+msgid "*The Attributes Table Toolbar*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:40
+#: d041d2d6647e4fe2b56dfb2529e4bdc6
+msgid "Those functionalities are:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: aac7b1460d7c40919503499b249cf070
+msgid "*Edit Mode*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 43e7edd492ca43e2af9ddffdcc4d7019
+msgid ""
+"By clicking on |edit_mode_button| you can start an editing session. It "
+"permits you to add new features, to delete or modify the existing ones, "
+"to edit geometries. See the :ref:`dataset-data-editing` section for "
+"further information."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:45
+#: 1e125db7495e4b83a4ef7e719419c9c4
+msgid "edit_mode_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:110
+#: 01987dc1b3764d0aabeb9b1f828920b6 b1d8fad167a4435e823c024470fdf2b2
+msgid "*Advanced Search*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: e2314453483248eaba7693acfb4cd553
+msgid ""
+"Click on |advanced_search_button|, a new panel opens. That panel allows "
+"you to filter features in many different ways. This functionality will be"
+" explained in depth in the :ref:`advanced-search` section."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:53
+#: 0e095461811e4ea1a88d0a31bedba2f1 6e00082c28fd4b9eb63857483696af4b
+msgid "advanced_search_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 7c52d0ea00294c03801920d8d338a868
+msgid "*Zoom to page extent*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 7de693e28d3941fab1223a194aecea29
+msgid "Click on |zoom_to_page_extent_button| to zoom to the page extent."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:61
+#: 5c4d6158601244ab947d0b5df914db2f
+msgid "zoom_to_page_extent_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 8ec97288633543ee99610e0923dbe3f3
+msgid "*Export Data*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 290b0f73416a42b0a97bf707820c1be8
+msgid "Click on |export_data_button| to open the export/download data form."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:69
+#: e3c7323c42144b638509e63b223aa9ab
+msgid "export_data_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 956b20a903924ae6b4b5d02b78b74ed9
+msgid "*Hide/show columns*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 667dfb69831c410dbe75a15171262a88
+msgid ""
+"When clicking on |hide_show_columns_button| another panel opens inside "
+"the *Attributes Table*. Through that panel you can choose what columns "
+"you want to see."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:78
+#: 016fc46deb154517842382a7667d212b
+msgid "hide_show_columns_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 3c9a92cf859d4be0ac06c4e61e4cdf53
+msgid "*Create a chart*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 0af573db665a4414a5a7326e8e626310
+msgid ""
+"Through the |create_charts_button| button you can open the *Chart "
+"Widgets* panel where many functionalities to describe and visualize the "
+"dataset data are available (see :ref:`creating-widgets`)."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:86
+#: 2e01d44e59114556b50985923e3b57c4
+msgid "create_charts_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: e8cacc8ace564914ba7b4e32653e1653
+msgid "*Sync map with filter*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: 848096ff4aaf448eb34e7cfc340328c2
+msgid ""
+"Click on the |sync_map_with_filter_button| icon to synchronize the map "
+"with the filter."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:94
+#: 44cc607d833744aa8468f482a7b141ae
+msgid "sync_map_with_filter_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:102
+#: 52a37a08cc6641e5b566304f8d84e241
+msgid "Advanced Search"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:104
+#: a0df266d7db14f6795aa3bb4dc4dae40
+msgid ""
+"As mentioned before, GeoNode allows both an attribute based and spatial "
+"filtering. When clicking on |advanced_search_button| from the dataset "
+"*Attributes Table* the *Advanced Search* panel opens and shows you three "
+"different filtering functionalities:"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:112
+#: eb23a540aab846228b15de9df6cfd583
+msgid ""
+"In the **Attribute Filter** section you can compose a series of "
+"conditions about the attributes of the dataset. Click on "
+"|add_condition_button| to insert a new empty condition. Select the "
+"attribute you are interested in, select an operator and type a comparison"
+" value. You can group conditions through the *Add Group* "
+"|add_group_button| button. Click on |start_search_button| to perform the "
+"search."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:123
+#: d1350b81fbbf4c1c8be12f1b32d1b410
+msgid "add_condition_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:128
+#: fa74392e7dfa4c44b95b24f61ff734b8
+msgid "add_group_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:143
+#: 3faa6c297df9485c81f42646c166b77d f80c5187c3444c81a0df9bf2e6dfbffa
+msgid "start_search_button"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:121
+#: efd7e25283ce4492a75b323bc62d1ba7
+msgid "*Filtering by Attributes*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:133
+#: d83fa917a29d453c9aa88e561afe853c
+msgid ""
+"You can also decide if *All* the conditions have to be met, if only *Any*"
+" or *None* of them (see the red arrow in the picture above)."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: d58d3a1fbe854812b302a9f2eec49051
+msgid ""
+"The ** Area of interest** filtering allows you to filter features that "
+"have some relationship with a spatial region that you draw on the map."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst
+#: f653fb9eb6274579bdb2586d01b0a5f1
+msgid ""
+"Select the *Filter Type* (Circle, Viewport, Polygon or Rectangle), draw "
+"the spatial region of interest on the map, select a *Geometric Operation*"
+" (Intersects, Bounding Box, Contains or Is contained) and then click on "
+"|start_search_button|."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:141
+#: d1307949b8fc4a75907c22a2e5e4197a
+msgid "*Filtering by Area Of Interest*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:148
+#: 2bf4b9d0f18942a88ec50e1a87986783
+msgid ""
+"Through the **Dataset Filter** you can select only those features which "
+"comply with some conditions on other datasets of the map. You can also "
+"add conditions on attributes for those datasets."
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:153
+#: 1e627e33e7644b6e8b4f29dc466a7d44
+msgid "*Dataset Filtering*"
+msgstr ""
+
+#: ../../usage/managing_maps/maps_configuration/attribute_table.rst:155
+#: 50e8cfa63c384c62aebc9bfa45cc3948
+msgid ""
+"You can read more about the *Attributes Table* and the *Advanced Search* "
+"on the `MapStore Documentation "
+"<https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide"
+"/filtering-layers/#query-panel>`_."
+msgstr ""
+

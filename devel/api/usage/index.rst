@@ -171,7 +171,8 @@ Resource Upload
 The API supports the upload of datasets and documents.
 
 Datasets
-""""""""""
+^^^^^^^^
+
 The dataset upload form accepts file formats of ESRI Shapefile, GeoTIFF, Comma Separated Value (CSV), Zip Archive, XML Metadata File, and Styled Layer Descriptor (SLD).
 For a successful upload, the form requires base_file, dbf_file, shx_file, and prj_file. The xml_file, and Sld_file are optional.
 
@@ -195,7 +196,8 @@ Example:
     response = requests.request("POST", url, headers=headers, files=files)
 
 Documents
-""""""""""
+^^^^^^^^^
+
 Documents can be uploaded as form data.
 
 - API: ``POST /api/v2/documents``
@@ -244,6 +246,7 @@ Notice that if the URL doesn't end with a valid doc extension, the ``extension``
 
 Tracking dataset upload progress
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 When an upload request is executed, GeoNode creates an "Execution request" and keeps updating its state and progress (it’s a property attribute, calculated on getting the response) attributes as the resource is being created and configured in Geoserver.
 An execution can be in one of the following status:
     - ``ready``
@@ -283,12 +286,13 @@ Example:
     response = requests.request("GET", url, headers=headers)
 
 Overwriting a dataset
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+
 Uploading a resource will create by default a new dataset. This behaviour can be changed by setting the ``overwrite_existing_layer`` parameter to ``True``. 
 In this case the upload procedure will overwrite a resource whose name matches with the new one.
 
 Skip existing dataset
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 If the parameter ``skip_existing_layers`` is set to true ``True`` the uplad procedure will ignore files whose name matched with already existing resources.
 
 Upload of a metadata file

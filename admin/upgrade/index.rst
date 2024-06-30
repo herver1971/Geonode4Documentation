@@ -1,5 +1,5 @@
 Upgrade from 3.2.x / 3.3.x
-=========================
+==========================
 
 1. Upgrade the dependencies
 2. Perform the ``migrations`` management command; in case some attribute is conflicting, remove it manually from the DB
