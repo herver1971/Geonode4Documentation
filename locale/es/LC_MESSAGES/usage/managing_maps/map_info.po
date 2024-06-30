@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_maps/map_info.rst:4 9a84c26ba70f43a388e5526396472b8e
+msgid "Map Information"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:6 fcfc57f74403457e9b16a7d7891a8226
+msgid ""
+"From the *Map Search Page* (see :ref:`finding-data`) you can select the "
+"map you are interested in and click on its name to see an overview about "
+"it."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:11 7e75963b6047413ea3b76638a3f2baff
+msgid "The information panel reports:"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:13 c50b2fe01bd9439dad7356d620b03552
+msgid ""
+"The *Info* tab is active by default. This tab section shows some map "
+"metadata such as its title, the abstract, date of publication etc. The "
+"metadata also indicates the map owner, what are the topic categories the "
+"map belongs to and which regions are affected."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:18 404051660fd54d5888f4bf597a681ad6
+msgid "*Map Info tab*"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:20 fc99f2032c3e42028284e4e667360608
+msgid "The *Location* tab shows the spacial extent of the map."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:25 404051660fd54d5888f4bf597a681ad6
+msgid "*Map Location tab*"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:27 1fc94055c1fe4b86b9c3e18209106e20
+msgid ""
+"By clicking on the copy icons you have a copy of the current *Bounding "
+"Box* or the *Center* in the clipboard which once pasted will be a WKT "
+"text."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:32 8900fd615aa94438a5386466c5d04c6e
+msgid "*Bounding Box and Center*"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:34 4350c2aa312c4b69a05968a70f9c005d
+msgid ""
+"The *Linked Resources* tab shows resources, that can be *Documents*, "
+"*Datasets*, *GeoStories* and *Dashboards*, linked to the map."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:39 9c10af3fe686429da855eb9e3547f4a5
+msgid "*Map Linked Resources tab*"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:41 f1d77e9d4a0042b9baf1514c36bf3985
+msgid ""
+"When a resource is `linked from` the map the link is shown under the "
+"*Linked by* list while when a resource is `linked to` the map the link is"
+" shown under the *Used by* list"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:44 6f4146d322f14c0ebce7ca6343fdc711
+msgid "From the right toolbar on the **Info** panel it is possible:"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:49 404051660fd54d5888f4bf597a681ad6
+msgid "*Map Info toolbar*"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:51 1d48c0e153f742ee9d559302ec8a851d
+msgid ""
+"Add map in your *Favorites* (see :ref:`editing-profile`), clicking on "
+"star icon."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:53 96950a42730e4c9a9daee3a5222754a3
+msgid "*Share* the map url"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:55 2193f25112d944c3ac3e7db8fbc9b9cb
+msgid "Change the map *Title* by clicking on it"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:57 1c5721ac6b6743b1bb96e8e7f4e95907
+msgid ""
+"You can access the map details page by clicking on *View map* in the "
+"overview panel. That page looks like the one shown in the picture below."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:63 6e213f97145c4c7f970252e2471521dd
+msgid "*Map page*"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:65 9e8361958a5d4a4696757696a6a17bf3
+msgid "The *Map Viewer* shows the map with very basic functionalities:"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:67 c65bb1c33174498db85883cb4e56b074
+msgid "the *Base Map Switcher* that allows you to change the base map;"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:68 fb44835f6eb44d32912452603eebe3b5
+msgid "the *Zoom in/out* tool to enlarge and decrease the view;"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:69 a969f3fba042480094b99e179d735879
+msgid "the *Zoom to max extent* tool for the zoom to fit the datasets extents;"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:70 5517f643234c4641bf45b5d3138b559c
+msgid ""
+"the *Query Objects* tool to retrieve information about the map objects by"
+" clicking on the map;"
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:71 a852a3825f8b40ddbfbeb1c66537d112
+msgid "the *Print* tool to print the preview."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:72 5517f643234c4641bf45b5d3138b559c
+msgid "the *Measure* tool to measure Distances, Areas and the Bearing of lines."
+msgstr ""
+
+#: ../../usage/managing_maps/map_info.rst:73 fb44835f6eb44d32912452603eebe3b5
+msgid "the *Annotations* tool to add an annotation to the map"
+msgstr ""
+

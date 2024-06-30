@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../advanced/social/index.rst:2 41a7a96ce9ef4d5c9d9844c23378029b
+msgid "GeoNode Social Accounts"
+msgstr ""
+
+#: ../../advanced/social/index.rst:5 18b3e69be3034ea08cac2f2a7f553579
+msgid "Contents"
+msgstr ""
+
+#: ../../advanced/social/index.rst:8 98aa4ad4b3564ad09ca70205d78db1b1
+msgid "Allow GeoNode to Login throguh Social Accounts (OIDC)"
+msgstr ""
+
+#: ../../advanced/social/index.rst:11 795926595dde49a8bc003bf13c53a082
+msgid "Introduction"
+msgstr ""
+
+#: ../../advanced/social/index.rst:13 c66a35adcdc34c08aa6140d97e03abc9
+msgid ""
+"Through the so-called \"social accounts,\" GeoNode allows authentication "
+"through external providers that support the OIDC (OpenID Connect) "
+"protocol, such as Google and Microsoft Azure."
+msgstr ""
+
+#: ../../advanced/social/index.rst:15 285efa60911441a6b057e5fd01c374f3
+msgid ""
+"How does it work? Once the authentication provider is configured, "
+"GeoNode's sign-on will display a new login button that redirects the user"
+" to the external authentication page. After successfully authenticating "
+"with the external provider and accepting privacy consents, the browser "
+"will redirect the user back to the GeoNode page, prompting them to enter "
+"any missing information the first time and automatically authenticating "
+"them on subsequent occasions."
+msgstr ""
+
+#: ../../advanced/social/index.rst:19 e8c065a6ad134e84a1eb267e2d2c8a91
+msgid "Usage"
+msgstr ""
+
+#: ../../advanced/social/index.rst:21 de8ed7db75504adab220421724b8a478
+msgid ""
+"Once the provider has been correctly configured (see below), GeoNode will"
+" allow the user to login through it."
+msgstr ""
+
+#: ../../advanced/social/index.rst:23 b75deea201d6418c8b24c68e63672148
+msgid ""
+"The first time you login you will probably need to confirm you `e-mail` "
+"and other fields of the `profile`."
+msgstr ""
+
+#: ../../advanced/social/index.rst:27 8965e4bb333347dda885488ee4a8e670
+msgid ""
+"If you want a user to be automatically signed as a member of a group, you"
+" will need to:"
+msgstr ""
+
+#: ../../advanced/social/index.rst:29 4aa2b43b39514ca1958d2e20d9be27d0
+msgid "Create the `GroupProfile` in GeoNode"
+msgstr ""
+
+#: ../../advanced/social/index.rst:30 ff2580a910a347769abc4637f8ff5365
+msgid ""
+"Provide the `groups` or `roles` the user belongs to throguh the "
+"`id_token` or `user_info` metadata from the `OIDC` provider itself."
+msgstr ""
+
+#: ../../advanced/social/index.rst:32 4b7b6ef145d0424b94a7f9dae3b07096
+msgid ""
+"Notice that, in the case you would like to benefit from this "
+"functionality:"
+msgstr ""
+
+#: ../../advanced/social/index.rst:34 bc8d0352bdfc4d66954a1dea413aa588
+msgid ""
+"Every time the user sing-in again, the groups will be automatically re-"
+"assigned by GeoNode, and therefore it won't be possible to assign them "
+"manually anymore."
+msgstr ""
+
+#: ../../advanced/social/index.rst:35 0187a6bb72384a7d950de8ca72d73876
+msgid ""
+"If you need a user to be recognized as a `manager` of the `groups` "
+"declared from the provider, you will need to send a claim `is_manager: "
+"True` on the user info metadata."
+msgstr ""
+
+#: ../../advanced/social/index.rst:38 95754334b8664bcc939b78991b99bef8
+msgid "Quick Configuration"
+msgstr ""
+
+#: ../../advanced/social/index.rst:40 ec48cb1b3f314b569026bc663e15572f
+msgid ""
+"Currently GeoNode comes with two predefined configurations that you can "
+"use to enable either Google or Microsoft Azure."
+msgstr ""
+
+#: ../../advanced/social/index.rst:42 80890a2eb1de48b1a98f36dfe0c7f06a
+msgid "**Google**"
+msgstr ""
+
+#: ../../advanced/social/index.rst:44 ../../advanced/social/index.rst:61
+#: 62158d6739c0487aab84ad7dba7c479d
+msgid "Add to your `.env` the following settings"
+msgstr ""
+
+#: ../../advanced/social/index.rst:52 ../../advanced/social/index.rst:69
+#: 6295cbb71b7f4c73b0ef4591136d79e8 a01ef254245947f49609946173bef7bf
+msgid ""
+"Login into GeoNode as an `admin`, go to the `Social Account` settings, "
+"create a new `geonode_openid_connect` provider and insert the"
+msgstr ""
+
+#: ../../advanced/social/index.rst:59 2bab22908ce54c12b0b497c37a7c38f1
+msgid "**Microsoft Azure**"
+msgstr ""
+
+#: ../../advanced/social/index.rst:77 6d908295209849399a864d2b7486bb08
+msgid "Advanced Configuration"
+msgstr ""
+
+#: ../../advanced/social/index.rst:79 a535451ecb004c0f8ce57a1828552dc9
+msgid ""
+"In the case you need to change the default behavior of GeoNode or add a "
+"new/custom OIDC provider, you will need to update the `settings` manually"
+" as follows."
+msgstr ""
+
+#: ../../advanced/social/index.rst:104 8a6966d7f655404a88e564f370af110a
+msgid ""
+"If you specify the \"ID_TOKEN_ISSUER\" this will take precedence trying "
+"to fetch the user info metadata from the `id_token`."
+msgstr ""
+
+#: ../../advanced/social/index.rst:106 835c04e5b387483eb1e4fff5bab4f25d
+msgid ""
+"If the `id_token` won't be available, it will try to fallback to the "
+"\"PROFILE_URL\" uri."
+msgstr ""
+
+#: ../../advanced/social/index.rst:108 a3be0a6168ab4d33938683a29c220150
+msgid ""
+"In the case you will need to customzie how the `Adapter` works and "
+"manages the `Groups` registration, you can inject a new class throguh the"
+" settings:"
+msgstr ""
+

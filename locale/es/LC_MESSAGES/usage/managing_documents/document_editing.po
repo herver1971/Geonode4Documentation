@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../usage/managing_documents/document_editing.rst:4
+#: 16ea57536d534263ad505c2ca496de38
+msgid "Document Editing"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:6
+#: c1a4831807104b259a89b716239f3d61
+msgid ""
+"The :ref:`document-info` page makes available useful menu for document "
+"editing. Click on the :guilabel:`Edit` link then :guilabel:`Edit "
+"Metadata` to see editing forms."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:9
+#: 1f19c6225f2d44f086715e59fc97e8ab
+msgid "Setting the Document Thumbnail"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:11
+#: a34be5a2d0044e20a81b2f6658408c23
+msgid ""
+"From the *Metadata Form*, it is possible to *Set the Thumbnail* of the "
+"document. Click on :guilabel:`Choose file` to open the *Thumbnail "
+"Uploading* page and chose the image that will illustrate your document. "
+"Once this is done, click on the ok button and save. If the thumbnail has "
+"been successfully uploaded you can see it by coming back to the document "
+"list."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:16
+#: d30720e266f349b592bedcc7e75c1d55
+msgid "*Upload Document's Thumbnail*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:18
+#: 68c8c39a75c445478ebaf8105a422085
+msgid "If no errors occur, the new selected thumbnail will be shown."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:23
+#: fa13adf52b624efea39e31bb028c5245
+msgid "*Uploading success*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:26
+#: b6cda43843c347fcbc737b8a329fd46e
+msgid "Editing the Document Metadata"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:28
+#: fe66686e8d3948a5b24a90adf2fbcd6e
+msgid ""
+"You can edit the metadata of your document as described in the :ref"
+":`document-metadata` section or by using THe *Advanced Metadata* option "
+"below."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:33
+#: 2210e13fee064113b4324f873be9610d
+msgid ""
+"|The :guilabel:`Advanced Metadata` button takes you to a big form where "
+"all the available metadata of the document can be edited. | Some "
+"information are mandatory such as the *Title* or the *Category* the "
+"document belongs to, some others are optional."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:39
+#: e8cdb57771014832b459192f76ec8eaa
+msgid "*Editing Metadata*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:41
+#: dbb23ce2338b4a5c8243fbc1a39649a1
+msgid ""
+"In the example shown in the picture above, the information inside the red"
+" rectangles have been changed. To save the changes click on "
+":guilabel:`Update`, you will be redirected to the document page."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:44
+#: 4fcc5cb7720449239a1197c7160511cd
+msgid "Editing the Document Info"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:46
+#: a01a1f533a534fbcbbbf665de2f27106
+msgid ""
+"You can edit the information of your document by clicking on the "
+":guilabel:`Info` button."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:48
+#: a23b874cb9de47238a334d3d29ecd3c4
+msgid ""
+"From the Info panel, it is possible to upload the **Thumbnail** of the "
+"document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:53
+#: 480b22ec86024bf39a807fd4c5cd8353
+msgid "*Upload Thumbnail*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:55
+#: 99d0cc2e09ee45508bc89a8868c71007
+msgid ""
+"If you want this document in your **Favorites** (see :ref:`editing-"
+"profile`), click on the start icon."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:60
+#: b1579072be084adebd5ac24663e434ad
+msgid "*Favorite document*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:62
+#: 46d35a12d7414dd4800fa63ba5c753cc
+msgid ""
+"You can directly **Download** the document and **Share** the document url"
+" by clicking the buttons on the top-right of the panel."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:67
+#: 2f19b3deab2a4719a11c559913abdc55
+msgid "*Share and Download document*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:69
+#: fbeac6462c704e298af6b92d032e8c04
+msgid "By clicking the document **Title**, you can change it."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:74
+#: ../../usage/managing_documents/document_editing.rst:81
+#: ../../usage/managing_documents/document_editing.rst:89
+#: 1f44356012544446a50d085be83cdd48 51c6d39fb5674135bede831d6003e13d
+#: b90a9ca593c14aa9b71c4ab7b509b50a
+msgid "*Document Title*"
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:76
+#: 862633d94d904babbe2279b4dc44d4d3
+msgid ""
+"From the :guilabel:`Locations` tab, you can manage the spacial extent of "
+"the document."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:84
+#: 8fac4161ab8e4d3bb4346e5e1e1fea10
+msgid ""
+"Here numerical fields and a map show the spatial extent (WGS 84) for the "
+"document and you can edit it by Shift+click and drag to draw the new "
+"extent on the map and change its location by clicking the marker and "
+"drag."
+msgstr ""
+
+#: ../../usage/managing_documents/document_editing.rst:91
+#: 5f2df6bfa4d94ff8ab096af935755832
+msgid ""
+"The *Location* tab is also available for :ref:`dashboard` and "
+":ref:`geostory`"
+msgstr ""
+

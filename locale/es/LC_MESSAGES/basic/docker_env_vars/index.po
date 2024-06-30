@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017-2024, Open Source Geospatial Foundation, CC-SA
+# This file is distributed under the same license as the GeoNode package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoNode master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 12:43-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../basic/docker_env_vars/index.rst:5 6a07017c923647cf8cb24af962cc20b4
+msgid "Docker Environmental variables"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:7 11f32fe9ef674dc2b5262ff02ae399eb
+msgid ""
+"This list reports the specific environmental variables requried for the "
+"configuration and execution of GeoNode Docker services"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:15 17f763cffcd0411088063e5ea495cf36
+msgid "Geoserver"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:19 58c64bde9c7c4f2ab7c0a52adf4a6ab2
+msgid "DATABASE_HOST"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst f063321c94a44a2cb7a575e9b0ab12e6
+msgid "Default: ``db``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:19 dd722e9d4c3e4605a5bd7128ac0887f0
+msgid "Internal IP or hostname for the PosgreSQL (``db``) Docker container."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:24 ced08f172303442086ae83682c55bdc3
+msgid "DATABASE_PORT"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 4fd4a410ae824920beb88d33156694b3
+#: 8ed924ad80414ee0a931e2e969ecf300 dd60d2ac02b24a348d1df789d9930e81
+msgid "Default: ``django``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:24 a29d07c7af6c4572b353a8e57fa059d5
+msgid "Internal port for the PosgreSQL (``db``) Docker container."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:29
+#: ../../basic/docker_env_vars/index.rst:98 260845d33d8e4462a4934f4b90039554
+#: e767c5c136174167a581ba49a29d2d8f
+msgid "GEONODE_LB_HOST_IP"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:29
+#: ../../basic/docker_env_vars/index.rst:98 4487f14aff894338ae895a9a448eb1e3
+#: ec853a94409043d88a9448acade0301f
+msgid "Internal IP or hostname for the GeoNode (``django``) Docker container."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:34
+#: ../../basic/docker_env_vars/index.rst:103 72c029261f4e4c019df7831963c31a0e
+#: 7cea6c91ecc64ad7ae5382b2f989d4de
+msgid "GEONODE_LB_PORT"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 8410b63568a84bd0bcb5b1dcba8e5551
+#: cd06d214e32e49b48c401541a8ef7274
+msgid "Default: ``8000``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:34
+#: ../../basic/docker_env_vars/index.rst:103 7b899ae67b7446cd82565c851a4debab
+#: d91a8897363748bcb9fca0578e763b1e
+msgid "Internal port for the GeoNode (``django``) Docker container."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:39
+#: ../../basic/docker_env_vars/index.rst:163 ed3adf1853df46828845a284c842f797
+#: ef2fb745c70e45fdb0d4a587031956e9
+msgid "GEONODE_GEODATABSE"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 06eca03ed21f4a15ae9bac786e4c4854
+#: 11a4eb013c9140b5b46f5e5a6e8c6296 225ec60892e2420da963730cce225ceb
+#: 2dc15d4dc40b4f75b16a957ad38f06e8 73775d9966d14e9580022b3fc34a67e2
+#: 9adec31763664040b9baa7ed5585cdc2 9b1941d24ffd4e98a51aa55a6d0b2d6c
+#: dc339fc086b24c63a80e962454f33c3a e2b69f031b034f06a7242727820ca010
+#: e362fc2aa8ae45f1ad8d438b65fc1998
+msgid "Default: ``geonode_data``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:39
+#: ../../basic/docker_env_vars/index.rst:163 82629ac788da4728be5ebf3baeebc700
+#: bcd709ef52aa44d193916ee3f7c591f5
+msgid "GeoNode geodatabase name."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:44
+#: ../../basic/docker_env_vars/index.rst:168 8cac76f536af4aa4973241aff5d9d15a
+#: e4bb67dd96394ece886236d34dcea3fc
+msgid "GEONODE_GEODATABASE_USER"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:44
+#: ../../basic/docker_env_vars/index.rst:168 38d2b49b28d3483ca470b43326e26efb
+#: c69a9277e7144f7fb2c87d4587288913
+msgid "GeoNode geodatabase user."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:49
+#: ../../basic/docker_env_vars/index.rst:173 3b6e7165c848458e85ca8bf4a8a851ee
+#: e6106e31a6ef4a25a8afb6e3694ef03d
+msgid "GEONODE_GEODATABASE_PASSWORD"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:49
+#: ../../basic/docker_env_vars/index.rst:173 36af5bd20b9f46e48f71a479da56a290
+#: feed77db911c4cdc90f096c276501fb6
+msgid "GeoNode geodatabase password."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:54 13a82244f5e441379beb01901f9a43d2
+msgid "GEONODE_GEODATABASE_SCHEMA"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst dd9de47ef38847f88c89880b425f30f1
+msgid "Default: ``publix``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:54 eba7b48ecf4f4f5e86ed2a782968369c
+msgid "GeoNode geodatabase schema."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:59 26364945d5c841e783eb9bac32d4d09b
+msgid "GEOSERVER_JAVA_OPTS"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst b9ca505496b849358aed0c8733f895e9
+msgid ""
+"Default: ``'-Djava.awt.headless=true -Xms4G -Xmx4G "
+"-Dgwc.context.suffix=gwc -XX:+UnlockDiagnosticVMOptions -XX:+LogVMOutput "
+"-XX:LogFile=/var/log/jvm.log -XX:PerfDataSamplingInterval=500 "
+"-XX:SoftRefLRUPolicyMSPerMB=36000 -XX:-UseGCOverheadLimit "
+"-XX:ParallelGCThreads=4 -Dfile.encoding=UTF8 "
+"-Djavax.servlet.request.encoding=UTF-8 "
+"-Djavax.servlet.response.encoding=UTF-8 -Duser.timezone=GMT "
+"-Dorg.geotools.shapefile.datetime=false -DGS-SHAPEFILE-CHARSET=UTF-8 "
+"-DGEOSERVER_CSRF_DISABLED=true "
+"-DPRINT_BASE_URL={geoserver_ui}/geoserver/pdf "
+"-DALLOW_ENV_PARAMETRIZATION=true "
+"-Xbootclasspath/a:/usr/local/tomcat/webapps/geoserver/WEB-"
+"INF/lib/marlin-0.9.3-Unsafe.jar "
+"-Dsun.java2d.renderer=org.marlin.pisces.MarlinRenderingEngine'``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:59 6bb020cf717048a58a505f5ebca999cc
+msgid "Geoserver JAVA OPTS."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:64
+#: ../../basic/docker_env_vars/index.rst:108 2b92819a0e7045afa46a8959e9f2552b
+#: 799cacbd291546b18f9737445e747965
+msgid "GEOSERVER_LB_HOST_IP"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 20d3dd2caff94217ae8a12ef29a13174
+#: 4b85085c9c7a47edbc8a5363f2f4cb6d
+msgid "Default: ``geoserver``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:64
+#: ../../basic/docker_env_vars/index.rst:108 5ba49eefb8f647239259b890dd1f92c6
+#: 8fff82b48a4f406f827bfa902746d54e
+msgid "Internal IP or hostname for the GeoNode (``geoserver``) Docker container."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:69
+#: ../../basic/docker_env_vars/index.rst:113 9a3aed67e4bf42f98b6ca52c91e50c7f
+#: b839aed62ff343f8afef66faf2d0d8c2
+msgid "GEOSERVER_LB_PORT"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 21660c859bc943ff82973c15c4b8d2f2
+#: f16f0d5d355041ba949c64131886ea65
+msgid "Default: ``8080``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:69
+#: ../../basic/docker_env_vars/index.rst:113 0dd37129dff44d72bdd7c6450855fcea
+#: 8c9b8aec7059424abf6c3ce2bce99681
+msgid "Internal port for the GeoNode (``geoserver``) Docker container."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:74 0a8f49c5c40942d7bd2ed2ea0bcc902c
+msgid "NGINX_BASE_URL"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 89d8461fc2644b52b724aa0dcc3bb846
+msgid "Default: ``http(s):/localhost``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:74 9c975f1c6fac4ca987e2922f0b784a6d
+msgid ""
+"Public URL of the ``nginx`` service. This value must match GeoNodes's "
+"``SITEURL`` setting"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:79 b18bce6f916b4e35b04f58960c7493aa
+msgid "OAUTH2_API_KEY"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 4616e85f42e24fc2a1e7bdbce037c738
+#: 728dc48138ae45eb95fbeddf6d1444f0 d56985d43a64477e8925508aef336108
+msgid "Default: ``(empty)``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:79 996ef1f2913f43d784d0ae3e6f1da2da
+msgid ""
+"Optionsl API Key for the communication between Geoserver and GeoNode "
+"Oauth2 services."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:84 8b682af226b34004908856426c60538f
+msgid "OAUTH2_CLIENT_ID"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:84 8e0b5247479d455e93ef4a54f8f8e772
+msgid "Geoserer Client ID for GeoNode Oauth2 server. Cannot be empty."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:89 d3144ce60caf4c2b8462f422daf8c841
+msgid "OAUTH2_CLIENT_SECRET"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:89 f5ed954be2e74e29a37ff3b63083ba11
+msgid "Geoserer Client secret for GeoNode Oauth2 server. Cannot be empty."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:93 8bfb929dff974f4a81934e089c1ddb0e
+msgid "Nginx"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:118
+#: ../../basic/docker_env_vars/index.rst:123 5ce6cc5ee0e141f893187c3134852816
+#: 7a86b228f57d47d7b3e407b84fc99bcc
+msgid "HTTPS_HOST"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 96921c153a5c42b686a7b31c33dd1389
+#: d601140501ad433099e2ea72d286299a
+msgid "Default: ``localhost``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:118 bd102124fbb3404db22f124fc5e54729
+msgid "The publis hostname for HTTPS (wihtout ``http:/`` scheme prefix)."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:123 0284eccd0062478eb823ea8976d7e351
+msgid "The publis hostname for HTTPS (wihtout ``https:/`` scheme prefix)."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:128 9a63bb9bb4a6493ea24d24f646d942de
+msgid "HTTP_PORT"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 7004e585510e47898b36c29f75577344
+msgid "Default: ``80``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:128 b9c6dc0ed5584f759890c348c5f32f6b
+msgid "Host port on which to expose the Nginx service for HTTP."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:134 f8ff1099dda141be9cf652b723bbf9a9
+msgid "HTTPS_PORT"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 51df2e1c6f574797ad58a7642777c9dc
+msgid "Default: ``443``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:133 7fb7dc401b914a83b83f1240da808091
+msgid "Host port on which to expose the Nginx service for HTTPS."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:139 90a3513d17124facb50af5e1bc7b4e16
+msgid "LETSENCRYPT_MODE"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst 598f1c607f0b46a1a22051f8571d8e74
+msgid "Default: ``disabled``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:139 c5c3134fb4734fae933b234206b40e4f
+msgid ""
+"Possible values: ``disabled`` (SSL disabled), ``staging`` (SSL local "
+"cert), ``production`` (SSL released by an ACME server)"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:143 04750ee341fd49f2917d0757ff2146ea
+msgid "PostgreSQL / PostGIS"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:148 18d9a3c1cb91431192c112e7f4b6195a
+msgid "GEONODE_DATABASE"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst a3bc8079e8f848218859f7a6501e3b27
+msgid "Default: ``geonode``"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:148 e6b72684474f43c1aad5b19ea7d9e3ec
+msgid "GeoNode database name."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:153 05b0a33042ed4188944bff1a033aa897
+msgid "GEONODE_DATABASE_USER"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:153 eaefe260e0934bc6a8cdb7e539552dfa
+msgid "GeoNode database user."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:158 d9ad9c6f794049128291c1f9091ab339
+msgid "GEONODE_DATABASE_PASSWORD"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:158 535ca4269bdc403da3d94e39db7cb8d1
+msgid "GeoNode database password."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:178
+#: ../../basic/docker_env_vars/index.rst:182 1e51d1484381484ca77212dbaada9960
+#: acf8134e19e842ce85abea89f3c0a6c6
+msgid "POSTGRES_USER"
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:178 977f5f826357432cac9efff849e37a76
+msgid "PostgreSQL admin user."
+msgstr ""
+
+#: ../../basic/docker_env_vars/index.rst:183 d844f9e8031f4c708d64b1bcf1a38919
+msgid "PostgreSQL admin password."
+msgstr ""
+
